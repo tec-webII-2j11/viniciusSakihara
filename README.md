@@ -15,6 +15,6 @@ Usuário Logado: Publicar artigos, editar artigos[próprios],  excluir artigos[p
 
 Usuário Visitante: Visualizar fotos e artigos;
 
-Mapa de Navegação: 
+Mapa de Navegação:
 
-Wireframe:
+[Wireframe:](Wireframe_Vizuu_2.png)
