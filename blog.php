@@ -4,72 +4,40 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vizuu</title>
-        <link type="text/css" rel="stylesheet" href="CSS/css_market.css">
         <script type="text/javascript" src="JS/js_login2.js"></script>
         <script type="text/javascript" src="JS/js_login.js"></script>
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+        <link type="text/css" rel="stylesheet" href="CSS/css_blog.css">
     </head>
     <body>
-        <header>
-            <div class="logo">
-                <h1><a href="index.html">Vizuu</a></h1>
-            </div>
-            <div class="nav">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="community.html">Community</a></li>
-                        <li><a href="market.html">Store</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a id="modal_trigger" href="#modal">Login</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <section id="busca_contato">
-            <div id="mensagem">
-                <h1><strong> Find what you are looking for in a Photography.</strong></h1>
-                <h4>  Here you will find prime and original images for brands and agencies.</h4>
-            </div>
+         <?php include "header.php"; ?>
+        <article id="artigo1">
+            <figure><a><img alt="Artigo1" src="Images/artigo1.jpg" ></a></figure>
+            <h1><a href=".txt">The Best Of #VizuuOnInstagram</a></h1>
+            <p>See what’s been happening on @Vizuu</p>
+            <figure id="share"><a><img alt="facebook" src="Images/facebook.svg"></a></figure>
+            <figure id="share"><a><img alt="twitter" src="Images/twitter_16x19.svg"></a></figure>
+            <figure id="share"><a><img alt="google" src="Images/google_plus_19x16.svg"></a></figure>
+        </article>
+        <article id="artigo2">
+            <figure><a><img alt="Artigo1" src="Images/artigo2.jpg" ></a></figure>
+            <h1><a href=".txt">Fresh on Market </a></h1>
+            <p>News pictures today!!</p>
+            <p>Check it out, what the Vizuugraphers have today for you!</p>
+            <figure id="share"><a><img alt="facebook" src="Images/facebook.svg"></a></figure>
+            <figure id="share"><a><img alt="twitter" src="Images/twitter_16x19.svg"></a></figure>
+            <figure id="share"><a><img alt="google" src="Images/google_plus_19x16.svg"></a></figure>
+        </article>
 
-            <div id="busca">
-                <article>
-                    <form>
-                        <input id="campo" type="search"/>
-                        <input type="submit"  value="Search"/>
-                    </form>
-                </article>
-
-                <div id="contato"> 
-                    <p>Free Creative Services. You ask. We help.</p>
-                    <a href="contact.html">
-                        <figure id="email">
-                            <img class="flutuaEsq" alt="email" src="Images/email.png">
-                        </figure>
-                        <p>contact@vizuu.com.br</p>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <section id="banners">
-            <article>
-                <h1><strong>If you are not convinced yet, let's look in another perspective.</strong></h1>
-                <br>
-                <figure id="first">
-                    <img alt="photographer" src="Images/photographer.jpg" width="150" height="400">
-                </figure>
-                <figure>
-                    <img alt="photographer2" src="Images/photographer2.jpg" width="150" height="400">
-                </figure>
-                <figure>
-                    <img alt="photographer2" src="Images/photographer3.jpg" width="150" height="400">
-                </figure>
-            </article>
-            <article>
-                <p>Everyone wants to create it, and photography is one of the best ways to do it. </p>
-            </article>
-        </section>
+        <article id="artigo3">
+            <figure><a><img alt="Artigo1" src="Images/artigo3.jpg" ></a></figure>
+            <h1><a href=".txt">These Streets Belong To Me!</a></h1>
+            <p>We asked Vizuugraphers to show us the culture of where they’re from.</p>
+            <figure id="share"><a><img alt="facebook" src="Images/facebook.svg"></a></figure>
+            <figure id="share"><a><img alt="twitter" src="Images/twitter_16x19.svg"></a></figure>
+            <figure id="share"><a><img alt="google" src="Images/google_plus_19x16.svg"></a></figure>
+        </article>
+        
         <div id="modal" class="popupContainer" style="display:none;">
                 <header class="popupHeader">
                     <span class="header_title">Login</span>
@@ -186,7 +154,7 @@
             })
         </script>
         
-       <article id="footer">
+        <article id="footer">
             <footer>
                 <p> @Copyright 2016 - Developed by Vinicius Sakihara</p>
                 <nav>
@@ -201,4 +169,5 @@
             </footer>
         </article>
     </body>
+
 </html>

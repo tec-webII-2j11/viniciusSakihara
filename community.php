@@ -10,23 +10,7 @@
         <link type="text/css" rel="stylesheet" href="CSS/css_community.css">
     </head>
     <body>
-        <header>
-            <div class="logo">
-                <h1><a href="index.html">Vizuu</a></h1>
-            </div>
-            <div class="nav">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="community.html">Community</a></li>
-                        <li><a href="market.html">Store</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a id="modal_trigger" href="#modal">Login</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+         <?php include "header.php"; ?>
         <section id="grade_imagens">
             <article><img id="myImg" alt="figure1" src="Images/tab9.jpg"></article>
             <article><img id="myImg" alt="figure1" src="Images/tab7.jpg"></article>

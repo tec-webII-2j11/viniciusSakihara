@@ -4,49 +4,54 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vizuu</title>
-        <link type="text/css" rel="stylesheet" href="CSS/css_contact.css">
+        <link type="text/css" rel="stylesheet" href="CSS/css_market.css">
         <script type="text/javascript" src="JS/js_login2.js"></script>
         <script type="text/javascript" src="JS/js_login.js"></script>
         <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
     </head>
-
     <body>
-        <header>
-            <div class="logo">
-                <h1><a href="index.html">Vizuu</a></h1>
+         <?php include "header.php"; ?>
+        <section id="busca_contato">
+            <div id="mensagem">
+                <h1><strong> Find what you are looking for in a Photography.</strong></h1>
+                <h4>  Here you will find prime and original images for brands and agencies.</h4>
             </div>
-            <div class="nav">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="community.html">Community</a></li>
-                        <li><a href="market.html">Store</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a id="modal_trigger" href="#modal">Login</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <section id="nav_2">
-            <article>
-                <nav>
-                    <h4>Date of Fundation</h4>
-                    <p>26/02/2016</p>
-                    <h4>Local</h4>
-                    <p>São Paulo, Brazil</p>Ï
-                </nav>
-            </article>
-        </section>
-        <section id="about_us">
-            <article>
-                <h1>What is Vizuu</h1>
-                <p>Vizuu is a place where you can begin and share your learning about photography. We believe that photography is one of the most beautiful arts that exists in this world.</p>
 
+            <div id="busca">
+                <article>
+                    <form>
+                        <input id="campo" type="search"/>
+                        <input type="submit"  value="Search"/>
+                    </form>
+                </article>
+
+                <div id="contato"> 
+                    <p>Free Creative Services. You ask. We help.</p>
+                    <a href="contact.html">
+                        <figure id="email">
+                            <img class="flutuaEsq" alt="email" src="Images/email.png">
+                        </figure>
+                        <p>contact@vizuu.com.br</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="banners">
+            <article>
+                <h1><strong>If you are not convinced yet, let's look in another perspective.</strong></h1>
+                <br>
+                <figure id="first">
+                    <img alt="photographer" src="Images/photographer.jpg" width="150" height="400">
+                </figure>
+                <figure>
+                    <img alt="photographer2" src="Images/photographer2.jpg" width="150" height="400">
+                </figure>
+                <figure>
+                    <img alt="photographer2" src="Images/photographer3.jpg" width="150" height="400">
+                </figure>
             </article>
             <article>
-                <h1>About us</h1>
-                <p>We was just like you, in the past, we didin't know how to shoot, we didin't know about aperture, rendering or angles. But together, you and we are gonna learn more about this features and more in the world of Vizuugraphy.</p>
+                <p>Everyone wants to create it, and photography is one of the best ways to do it. </p>
             </article>
         </section>
         <div id="modal" class="popupContainer" style="display:none;">
@@ -165,7 +170,7 @@
             })
         </script>
         
-        <article id="footer">
+       <article id="footer">
             <footer>
                 <p> @Copyright 2016 - Developed by Vinicius Sakihara</p>
                 <nav>
@@ -180,4 +185,4 @@
             </footer>
         </article>
     </body>
-</html> 
+</html>
